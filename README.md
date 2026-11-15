@@ -9,14 +9,15 @@ SQLite (Node's built-in `node:sqlite`, so there are no native modules to compile
 
 ## Requirements
 
-- Node.js **22.13 or newer** (24 recommended)
+- [Bun](https://bun.sh) **1.2 or newer** (runs the app and manages packages)
+- Node.js **22.13 or newer** (only needed for the test suite, which runs on Vitest)
 - A Trello account, plus an API key and token
 
 ## Quick start
 
 ```bash
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
 Then open **http://localhost:3000**.
@@ -81,11 +82,11 @@ exist in Trello) rather than imported.
 
 | Command             | What it does                                         |
 | ------------------- | ---------------------------------------------------- |
-| `npm run dev`       | Start the server with Vite middleware on port 3000   |
-| `npm run build`     | Build the client and compile the server to `dist/`   |
-| `npm start`         | Run the production build                             |
-| `npm test`          | Run the test suite (Vitest)                          |
-| `npm run typecheck` | Type-check client and server                         |
+| `bun run dev`       | Start the server with Vite middleware on port 3000   |
+| `bun run build`     | Build the client and compile the server to `dist/`   |
+| `bun run start`     | Run the production build                             |
+| `bun run test`      | Run the test suite (Vitest)                          |
+| `bun run typecheck` | Type-check client and server                         |
 
 ## Configuration (`.env`)
 
@@ -134,15 +135,15 @@ tests/                 Vitest tests and CSV fixtures
 `scripts/mock-trello.mjs` is a small local stand-in for the Trello endpoints the app uses.
 
 ```bash
-node scripts/mock-trello.mjs 4010
-# in another terminal (PowerShell: $env:TRELLO_API_BASE_URL="http://127.0.0.1:4010/1"; npm run dev)
-TRELLO_API_BASE_URL=http://127.0.0.1:4010/1 npm run dev
+bun scripts/mock-trello.mjs 4010
+# in another terminal (PowerShell: $env:TRELLO_API_BASE_URL="http://127.0.0.1:4010/1"; bun run dev)
+TRELLO_API_BASE_URL=http://127.0.0.1:4010/1 bun run dev
 ```
 
 Any key/token of the right shape is accepted by the mock. `TRELLO_API_BASE_URL` is only honored
 for loopback addresses, so credentials can never be sent to another host. Leave it unset for real use.
 
-`npm test` runs unit tests plus an end-to-end test that imports the sample CSV
+`bun run test` runs unit tests plus an end-to-end test that imports the sample CSV
 (`tests/fixtures/sample-import.csv`) through the full stack against a mock Trello server.
 
 ## License

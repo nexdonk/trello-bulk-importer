@@ -10,12 +10,13 @@
     "url": "https://github.com/nexdonk/trello-bulk-importer.git"
   },
   "engines": {
+    "bun": ">=1.2",
     "node": ">=22.13"
   },
   "scripts": {
-    "dev": "tsx watch --clear-screen=false --ignore ./src/client --ignore ./data --ignore ./uploads src/server/index.ts",
+    "dev": "bun --watch src/server/index.ts",
     "build": "vite build && tsc -p tsconfig.server.json",
-    "start": "cross-env NODE_ENV=production node dist/server/server/index.js",
+    "start": "NODE_ENV=production bun dist/server/server/index.js",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.server.json",
     "test": "vitest run"
   },
@@ -50,11 +51,10 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
-    "cross-env": "^7.0.3",
     "tailwindcss": "^4.0.0",
-    "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "vite": "^6.0.7",
     "vitest": "^2.1.8"
-  }
+  },
+  "packageManager": "bun@1.4.0"
 }

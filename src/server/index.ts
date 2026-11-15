@@ -17,7 +17,7 @@ async function main(): Promise<void> {
 
   if (config.isProduction) {
     if (!fs.existsSync(CLIENT_DIST)) {
-      logger.error('dist/client not found. Run "npm run build" first.');
+      logger.error('dist/client not found. Run "bun run build" first.');
       process.exit(1);
     }
     app.use(express.static(CLIENT_DIST, { index: false }));
