@@ -1,0 +1,92 @@
+﻿List Name,Card Name,Card Description,Labels
+Original Skill Ideas,Berserk,On kill: +15% movement speed and +20% fire rate.,Original Idea
+Original Skill Ideas,Guardian,The first headshot a user hits on you is converted into a bodyshot.,Original Idea
+Original Skill Ideas,Adrenaline Junkie,"Below 25% HP, reload speed is increased by 30%.",Original Idea
+Original Skill Ideas,Pickpocket,"Steal $50–$200 from players you bump into, once every 10 minutes.",Original Idea
+Original Skill Ideas,Getaway Artist,Wanted level decays 25% faster while in a vehicle.,Original Idea
+Original Skill Ideas,Silver Tongue,"Shop prices reduced by 10%, ""haggle"" option unlocked at dealers.",Original Idea
+Original Skill Ideas,Iron Lungs,Sprint for 40% longer before exhaustion.,Original Idea
+Original Skill Ideas,Night Owl,"Between 22:00 and 04:00, gain +10% XP from all jobs.",Original Idea
+Original Skill Ideas,Lockpick Master,Lockpicking minigame has 2 extra pins of tolerance.,Original Idea
+Original Skill Ideas,Café Regular,"Food from cafés (e.g. ""Le Petit Café"") heals 50% more.",Original Idea
+Original Skill Ideas,Scavenger,Looting bodies has a 20% chance to drop extra ammo.,Original Idea
+Original Skill Ideas,Medic,"Revive downed teammates 2x faster.
+
+- Works on strangers too
+- Costs no bandages",Original Idea
+V2 Combat,Berserk V2,"On kill: +15% movement speed and +20% fire rate.
+
+Stacks up to 3 times, lasts 8 seconds.","V2 Combat, Priority"
+V2 Combat,Deadeye,ADS for 2s to highlight weak points; next shot deals +25% damage.,"V2 Combat, Priority"
+V2 Combat,Juggernaut,"Take 15% less damage while carrying a heavy weapon, but move 10% slower.",V2 Combat
+V2 Combat,Quickdraw,Weapon swap time reduced by 40%.,V2 Combat
+V2 Combat,Last Stand,"When downed, you can still fire your pistol for 10 seconds.",V2 Combat
+V2 Combat,Shock & Awe,Explosives stun enemies in a 5m radius for 1.5s.,V2 Combat
+V2 Combat,Bulletproof Pride,"Armor plates apply 30% faster. ""Don't call it a vest.""",V2 Combat
+V2 Combat,Counter Punch,Blocking a melee attack opens a 1s window for a guaranteed crit.,V2 Combat
+V2 Combat,Marksman,Headshots with rifles refund 1 bullet to the magazine.,V2 Combat
+V2 Combat,Bloodhound,Damaged enemies leave a visible trail for 5 seconds — even through smoke.,V2 Combat
+V2 Driving,Drift King,Drifting builds nitro; +5% top speed while drifting.,"V2 Driving, Priority"
+V2 Driving,Pit Maneuver,Ramming a police car from the side has a 50% chance to spin it out.,V2 Driving
+V2 Driving,Road Warrior,Vehicle takes 20% less damage from gunfire.,V2 Driving
+V2 Driving,Hotwire,"Steal locked cars without the alarm triggering, 60% of the time.",V2 Driving
+V2 Driving,Wheelman,Passengers in your car get +10% accuracy.,V2 Driving
+V2 Driving,Off-Road Legend,"No speed penalty on dirt, sand, or grass.",V2 Driving
+V2 Driving,Quick Fix,"Repair tires in 3s with a repair kit.
+
+* Requires: Mechanic rank 2
+* Cooldown: 60s",V2 Driving
+V2 Driving,Ghost Plates,"After escaping police, your plates are ""clean"" again after 2 minutes instead of 10.",V2 Driving
+V2 Criminal,Safecracker,Safes open 30% faster; no noise during cracking.,"V2 Criminal, Priority"
+V2 Criminal,Fence,Sell stolen goods for 15% more at pawn shops.,V2 Criminal
+V2 Criminal,Inside Man,"Bank heists start with one guard already ""paid off"".",V2 Criminal
+V2 Criminal,Smooth Criminal,Witnesses take 5s longer to call the police.,V2 Criminal
+V2 Criminal,Counterfeiter,Craft fake bills at a 1:1.5 ratio; 5% chance to get caught at ATMs.,V2 Criminal
+V2 Criminal,Smuggler,Hidden compartment in vehicles; contraband is not detected at checkpoints.,V2 Criminal
+V2 Criminal,Masked Up,Wearing a mask reduces wanted level gain by 1 star (min. 1).,V2 Criminal
+V2 Criminal,Getaway Driver Network,"Call an NPC getaway driver once per heist, cost $1,500.",V2 Criminal
+V2 Criminal,Kingpin,Gang members you recruit earn you 5% of their job payouts.,V2 Criminal
+V2 Jobs & Trade,Trucker Pro,Long-haul deliveries pay +20%; fatigue meter fills 25% slower.,V2 Jobs & Trade
+V2 Jobs & Trade,Fisherman,Rare fish chance increased: 5% → 8%.,V2 Jobs & Trade
+V2 Jobs & Trade,Mechanic,Repair vehicles for other players and charge up to $500.,V2 Jobs & Trade
+V2 Jobs & Trade,Taxi Veteran,Tips from NPC passengers doubled after 4.5★ rating.,V2 Jobs & Trade
+V2 Jobs & Trade,Wholesale Buyer,Buy materials in bulk (x10) at a 12% discount.,V2 Jobs & Trade
+V2 Jobs & Trade,Miner,"Ore nodes yield +1 per strike, 10% chance for gems 💎.",V2 Jobs & Trade
+V2 Jobs & Trade,Chef,"Cook meals that grant buffs, e.g. ""Spicy Ramen"": +5% stamina regen.",V2 Jobs & Trade
+V2 Jobs & Trade,Stock Broker,See next-day price trends for 3 random stocks.,V2 Jobs & Trade
+V2 Social,Charismatic,NPC shopkeepers offer secret items to you.,V2 Social
+V2 Social,Party Animal,Hosting an event at your apartment gives guests +10% XP for 30 minutes.,V2 Social
+V2 Social,Wingman,Friends in your crew earn +5% reputation when near you.,V2 Social
+V2 Social,Influencer,"Photos you post in-game give $10 per ""like"" (max $500/day).",V2 Social
+V2 Social,Peacekeeper,Defusing a fight between players awards Respect points.,V2 Social
+V2 Social,DJ,"Play music on a boombox; nearby players get a ""Vibing"" buff 🎵.",V2 Social
+V2 Social,Mentor,"Players under rank 10 in your crew get +15% XP.
+
+Note: does not stack with other mentors.",V2 Social
+V2 Utility,Pack Mule,+4 inventory slots.,V2 Utility
+V2 Utility,Hacker,Disable CCTV cameras for 30s with a phone app.,V2 Utility
+V2 Utility,Parkour,Climb fences & walls 50% faster.,V2 Utility
+V2 Utility,Binocular Vision,Tag up to 3 targets with binoculars; tags last 20s.,V2 Utility
+V2 Utility,Fast Travel Pass,Use metro stations to fast travel for $25 per trip.,V2 Utility
+V2 Utility,Weatherproof,"No movement penalty in rain, snow, or storms.",V2 Utility
+V2 Utility,Locksmith,Duplicate a key for any car or apartment you have access to.,V2 Utility
+V2 Utility,Phone Upgrade,"Unlocks GPS tracker, burner calls, and ""Do Not Disturb"" mode.",V2 Utility
+V2 Rank Rewards,Rank 5: Starter Kit,"Pistol, 2 bandages, $500.",V2 Rank Rewards
+V2 Rank Rewards,Rank 10: Garage Slot,One extra garage slot at any property.,V2 Rank Rewards
+V2 Rank Rewards,Rank 15: Custom Plates,"Vanity license plate (max 8 chars, A–Z & 0–9).",V2 Rank Rewards
+V2 Rank Rewards,Rank 20: Skill Respec,One free skill respec token.,V2 Rank Rewards
+V2 Rank Rewards,Rank 30: Crew Banner,Design a crew banner shown on crew vehicles.,V2 Rank Rewards
+V2 Rank Rewards,Rank 40: Prestige Outfit,"Exclusive ""Overtime"" jacket — gold trim.",V2 Rank Rewards
+V2 Rank Rewards,Rank 50: Legend Title,"Title ""Legend of Overtime"" + 5% discount everywhere.",V2 Rank Rewards
+V2 Planning Notes,Balance pass for combat skills,"Review all combat numbers after playtest #3.
+
+- Berserk may be too strong in team fights
+- Guardian vs. snipers: needs data
+- ""Last Stand"" feels bad in 1v1","V2 Planning Notes, Priority"
+V2 Planning Notes,Skill tree layout,"Three branches: Combat, Street, Business.
+Each branch has 4 tiers.","V2 Planning Notes, Priority"
+V2 Planning Notes,Pricing model,"Skills cost XP + cash: tier 1 = $500, tier 2 = $1,500, tier 3 = $5,000.",V2 Planning Notes
+V2 Planning Notes,Localization,"Make sure accents (é, ñ, ü) and em dashes — render correctly in the UI.",V2 Planning Notes
+V2 Planning Notes,Open questions,"1. Should skills be refundable?
+2. Do V2 skills replace originals, or stack?
+3. ""Prestige"" — reset skills or keep?",V2 Planning Notes
